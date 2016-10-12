@@ -1,0 +1,25 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "Responsive ES6 Slider Toolkit",
+  "main": "dist/slider.js",
+  "jsnext:main": "dist/slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Schubert",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-watch": "~0.5",
+    "grunt-rollup": "^0.8.0",
+    "load-grunt-tasks": "^3.3.0",
+    "rollup-plugin-babel": "^2.6.1",
+    "babel-plugin-external-helpers": "^6.8.0",
+    "babel-preset-es2015-rollup": "^1.2.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "gsap": "^1.19.0"
+  }
+}
